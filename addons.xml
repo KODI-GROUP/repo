@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="Ninbora.Addons"
+       name="Ninbora Addons"
+       version="1.0.16"
+       provider-name="Ninbora Development Team">
+  <extension point="xbmc.addon.repository" name="Ninbora">
+    <info compressed="false">https://raw.githubusercontent.com/ninbora/repo/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/ninbora/repo/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/ninbora/repo/master</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <minversion>1</minversion>
+    <platform>all</platform>
+    <summary lang="en">Ninbora Repository</summary>
+    <description lang="en">Addons from Ninbora</description>
+  </extension>
+</addon>
+
+<addon id="Ninbora.Movies_Feeder" name="Ninbora.Movies_Feeder" version="1.0.1" provider-name="Ninbora">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup"></extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Load Genesis/Pulsar items of movies to wall</summary>
+    <summary lang="he">טוען פריטי Genesis/Pulsar של סרטים לקיר</summary>
+    <description lang="en">Load Genesis/Pulsar items of movies to wall</description>
+    <description lang="he">טוען פריטי Genesis/Pulsar של סרטים לקיר</description>
+    <website>https://www.github.com/ninbora</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="Ninbora.Series_Feeder" name="Ninbora.Series_Feeder" version="1.0.1" provider-name="Ninbora">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup"></extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Load Genesis/Pulsar items of series to wall</summary>
+    <summary lang="he">טוען פריטי Genesis/Pulsar של סדרות אל הקיר</summary>
+    <description lang="en">Load Genesis/Pulsar items of series to wall</description>
+    <description lang="he">טוען פריטי Genesis/Pulsar של סדרות אל הקיר</description>
+    <website>https://www.github.com/ninbora</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
