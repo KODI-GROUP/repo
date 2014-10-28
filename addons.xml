@@ -2,7 +2,7 @@
 <addons>
 <addon id="Ninbora.Addons"
        name="Ninbora Addons"
-       version="1.0.16"
+       version="1.0.17"
        provider-name="Ninbora Development Team">
   <extension point="xbmc.addon.repository" name="Ninbora">
     <info compressed="false">https://raw.githubusercontent.com/ninbora/repo/master/addons.xml</info>
@@ -17,7 +17,7 @@
   </extension>
 </addon>
 
-<addon id="Ninbora.Movies_Feeder" name="Ninbora.Movies_Feeder" version="1.0.1" provider-name="Ninbora">
+<addon id="Ninbora.Movies_Feeder" name="Ninbora.Movies_Feeder" version="1.0.2" provider-name="Ninbora">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -35,7 +35,7 @@
   </extension>
 </addon>
 
-<addon id="Ninbora.Series_Feeder" name="Ninbora.Series_Feeder" version="1.0.1" provider-name="Ninbora">
+<addon id="Ninbora.Series_Feeder" name="Ninbora.Series_Feeder" version="1.0.2" provider-name="Ninbora">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
