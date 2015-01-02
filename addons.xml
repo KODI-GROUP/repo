@@ -2,7 +2,7 @@
 <addons>
 <addon id="Ninbora.Addons"
        name="Ninbora Addons"
-       version="1.0.17"
+       version="1.0.18"
        provider-name="Ninbora Development Team">
   <extension point="xbmc.addon.repository" name="Ninbora">
     <info compressed="false">https://raw.githubusercontent.com/ninbora/repo/master/addons.xml</info>
@@ -17,7 +17,7 @@
   </extension>
 </addon>
 
-<addon id="Ninbora.Movies_Feeder" name="Ninbora.Movies_Feeder" version="1.0.2" provider-name="Ninbora">
+<addon id="Ninbora.Movies_Feeder" name="Ninbora.Movies_Feeder" version="1.0.3" provider-name="Ninbora">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -26,16 +26,14 @@
   </extension>
   <extension point="xbmc.service" library="service.py" start="startup"></extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Load Genesis/Pulsar items of movies to wall</summary>
-    <summary lang="he">טוען פריטי Genesis/Pulsar של סרטים לקיר</summary>
-    <description lang="en">Load Genesis/Pulsar items of movies to wall</description>
-    <description lang="he">טוען פריטי Genesis/Pulsar של סרטים לקיר</description>
+    <summary lang="en">Feed movies to Kodi from several sources</summary>
+    <summary lang="he">מזין סרטים לקודי ממספר ממקורות</summary>
     <website>https://www.github.com/ninbora</website>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="Ninbora.Series_Feeder" name="Ninbora.Series_Feeder" version="1.0.2" provider-name="Ninbora">
+<addon id="Ninbora.Series_Feeder" name="Ninbora.Series_Feeder" version="1.0.3" provider-name="Ninbora">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -44,10 +42,8 @@
   </extension>
   <extension point="xbmc.service" library="service.py" start="startup"></extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Load Genesis/Pulsar items of series to wall</summary>
-    <summary lang="he">טוען פריטי Genesis/Pulsar של סדרות אל הקיר</summary>
-    <description lang="en">Load Genesis/Pulsar items of series to wall</description>
-    <description lang="he">טוען פריטי Genesis/Pulsar של סדרות אל הקיר</description>
+    <summary lang="en">Feed series to Kodi from several sources</summary>
+    <summary lang="he">מזין סדרות לקודי ממספר מקורוצ</summary>
     <website>https://www.github.com/ninbora</website>
     <platform>all</platform>
   </extension>
